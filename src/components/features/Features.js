@@ -1,8 +1,8 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import Card from '../layouts/Card'
+import Card from './Card'
 import { AiFillAppstore } from "react-icons/ai";
-import { featuresData } from '../../data/data';
+import { featuresData } from '../../data/featuresData';
 
 const Features = () => {
   return (
