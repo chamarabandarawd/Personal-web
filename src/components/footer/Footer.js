@@ -27,7 +27,7 @@ const Footer = () => {
             <h3  className='text-xl uppercase text-designColor tracking-wider'>Quick Link</h3>
             <ul className='flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6'>
                 <li >
-                    <span className='w-full text-lg relative text-designColor duration-300'>About<span></span></span></li>
+                    <span className='w-full text-lg relative text-designColor duration-300 cursor-pointer'>About<span></span></span></li>
             </ul>
         </div>
         <div className='w-full h-full '>
