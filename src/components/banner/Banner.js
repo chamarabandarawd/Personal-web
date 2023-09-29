@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <section
             id='home'
-            className="w-full pt-10 py-20  flex item-center border-b-[px] font-titleFont border-b-black">
+            className="w-full pt-10 py-20  flex flex-col md:flex-row lgl:flex-row item-center border-b-[px] font-titleFont border-b-black">
                 <LeftBanner/>
             <RightBanner/>
         </section>
