@@ -15,12 +15,6 @@ const Features = () => {
         <Card key={id} title={title} des={des} icon={icon}/>
       ))}
 
-      <Card 
-      title='Business Stratagy'
-      des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad'
-      icon={<AiFillAppstore />}
-      />
-
       </div>
 
     
