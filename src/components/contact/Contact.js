@@ -57,7 +57,7 @@ const Contact = () => {
           des='Contact With Me' />
       </div >
       <div className='w-full '>
-        <div className='w-full h-auto flex justify-between'>
+        <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
           <ContactLeft />
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] 
           flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
@@ -72,8 +72,8 @@ const Contact = () => {
                   {successMsg}
                 </p>
               )}
-              <div className='w-full flex gap-10'>
-                <div className='w-1/2 flex flex-col gap-4'>
+              <div className='w-full flex flex-col lgl:flex-row gap-10'>
+              <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
                 <p className="text-sm text-gray-400 uppercase tracking-wide">
                     Your name
                   </p>
@@ -87,7 +87,7 @@ const Contact = () => {
                     type="text"
                   />
                 </div>
-                <div className='w-1/2 flex flex-col gap-4'>
+                <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
                   <p className='text-sm text-gray-400 uppercase tracking-wide'>Phone Number</p>
                   <input onChange={(e) => setPhoneNumber(e.target.value)} value={phoneNumber} className={`${
                       errMsg === "Phone number is required!" &&
