@@ -10,6 +10,12 @@ import testimonial1 from './testimonial/testimonial1.jpg'
 import testimonial2 from './testimonial/testimonial2.jpg'
 import quote from './testimonial/quote.png'
 import contactImg from './contactImg.jpg'
+import FED from './certificateImg/FED.png'
+import FrontEnd_React from './certificateImg/FrontEnd_React.png'
+import fullStack from './certificateImg/fullStack.png'
+import oop from './certificateImg/oop.png'
+import webMora from './certificateImg/webMora.png'
+import serverSide from './certificateImg/ServerSidedevelopment.png'
 
 const projectImgs=[
     project1,
@@ -26,5 +32,11 @@ export {
     testimonial1,
     testimonial2,
     quote,
-    contactImg
+    contactImg,
+    FED,
+    FrontEnd_React,
+    fullStack,
+    oop,
+    webMora,
+    serverSide    
 }

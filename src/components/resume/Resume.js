@@ -4,10 +4,12 @@ import Education from './Education'
 import Skills from './Skills'
 import Achievement from './Achievement'
 import Experience from './Experience'
+import SE from './SE'
 
 const Resume = () => {
 
     const [educationData, setEducationData] = useState(true)
+    const [itData, setItData] = useState(false)
     const [skillsData, setSkillsData] = useState(false)
     const [experinceData, setExperinceData] = useState(false)
     const [achievementData, setAchievementData] = useState(false)
@@ -17,24 +19,35 @@ const Resume = () => {
         setAchievementData(false);
         setExperinceData(false);
         setSkillsData(false)
+        setItData(false)
+    }
+    const clickOnIt = () => {
+        setEducationData(false);
+        setAchievementData(false);
+        setExperinceData(false);
+        setSkillsData(false)
+        setItData(true)
     }
     const clickOnSkills = () => {
         setEducationData(false);
         setAchievementData(false);
         setExperinceData(false);
         setSkillsData(true)
+        setItData(false)
     }
     const clickOnExperince = () => {
         setEducationData(false);
         setAchievementData(false);
         setExperinceData(true);
         setSkillsData(false)
+        setItData(false)
     }
     const clickOnAchievemnt = () => {
         setEducationData(false);
         setAchievementData(true);
         setExperinceData(false);
         setSkillsData(false)
+        setItData(false)
     }
 
     return (
@@ -45,7 +58,7 @@ const Resume = () => {
                     des='My Resume' />
             </div>
             <div>
-                <ul className='w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 '>
+                <ul className='w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-5 '>
                     <li onClick={() => { clickOnEducation() }}
                         className={`${educationData
                             ? "border-designColor rounded-lg"
@@ -53,6 +66,12 @@ const Resume = () => {
                             } resumeLi`}
                     >Education</li>
 
+                    <li onClick={() => { clickOnIt() }}
+                        className={`${itData
+                            ? "border-designColor rounded-lg"
+                            : "border-transparent"
+                            } resumeLi`}
+                    >SE Qlification</li>
                     <li onClick={() => { clickOnSkills() }}
                         className={`${skillsData
                             ? "border-designColor rounded-lg"
@@ -77,7 +96,10 @@ const Resume = () => {
             </div>
             {
                 educationData && <Education />
-            }
+                            }
+                            {
+                                itData && <SE/>
+                            }
             {
                 skillsData && <Skills />
             }

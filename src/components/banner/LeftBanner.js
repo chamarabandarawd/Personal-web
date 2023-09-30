@@ -1,5 +1,6 @@
 import React from 'react'
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si"
+import { SiTailwindcss, SiFigma,} from "react-icons/si"
+import { MdMarkEmailUnread } from "react-icons/md"
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact,FaWhatsappSquare } from 'react-icons/fa'
 import { SiSpringboot} from 'react-icons/si'
 
@@ -7,6 +8,16 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 const LeftBanner = () => {
+    const openLinkdinPage = () => {
+        window.open('https://www.linkedin.com/in/chamara-bandara-096681141/', '_blank'); // Replace 'https://www.example.com' with the URL you want to open
+      };
+
+      const handleWhatsAppClick = () => {
+        const phoneNumber = '94766960861';
+        const whatsappUrl = `https://wa.me/${phoneNumber}`;
+        window.open(whatsappUrl, '_blank');
+      };
+
     const [text] = useTypewriter({
         words: ["Professional Coder with Java.", "Full Stack Developer.", "UI Desihner."],
         loop: true,
@@ -45,13 +56,13 @@ const LeftBanner = () => {
                         Find me in
                     </h2>
                     <div className="flex gap-4">
-                        <span className="bannerIcon">
-                            <FaLinkedinIn />
+                        <span onClick={openLinkdinPage} className="bannerIcon">
+                            <FaLinkedinIn  />
                         </span>
                         <span className="bannerIcon">
-                            <FaTwitter />
+                            <MdMarkEmailUnread />
                         </span>
-                        <span className="bannerIcon">
+                        <span  onClick={handleWhatsAppClick} className="bannerIcon">
                             <FaWhatsappSquare />
                         </span>
                     </div>
