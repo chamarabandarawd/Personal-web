@@ -1,5 +1,4 @@
 import React from 'react'
-import ResumeCrad from './ResumeCrad'
 import { motion } from 'framer-motion';
 
 const Skills = () => {

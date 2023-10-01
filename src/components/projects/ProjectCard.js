@@ -17,10 +17,10 @@ const ProjectCard = ({ title, des, img,gitLink,deployLink }) => {
                     <h3 className='text-base uppercase text-designColor font-normal'
                     >{title}</h3>
                     <div className="flex gap-2">
-                        <a href={gitLink} target="_blank" className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                        <a href={gitLink} target="_blank"  rel="noreferrer" className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                             <BsGithub />
                         </a>
-                        <a href={deployLink} target="_blank" className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                        <a href={deployLink} target="_blank" rel="noreferrer" className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                             <FaGlobe />
                         </a>
                     </div>

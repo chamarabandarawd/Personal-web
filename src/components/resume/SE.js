@@ -1,6 +1,5 @@
 import React from 'react'
 import { seData } from '../../data/seData'
-import ResumeCrad from './ResumeCrad'
 import {motion} from "framer-motion"
 import CertificateCard from './CertificateCard'
 

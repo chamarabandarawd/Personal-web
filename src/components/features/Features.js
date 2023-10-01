@@ -1,7 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import Card from './Card'
-import { AiFillAppstore } from "react-icons/ai";
 import { featuresData } from '../../data/featuresData';
 
 const Features = () => {

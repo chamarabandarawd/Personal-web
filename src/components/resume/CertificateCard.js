@@ -22,7 +22,7 @@ const CertificateCard = ({ title,subtitle,result,des,link, isLinkAvailable}) => 
                     </div>
                 </div>
                 {
-                    isLinkAvailable && <a href={link} target="_blank"
+                    isLinkAvailable && <a href={link} target="_blank" rel="noreferrer"
                     className="cursor-pointer px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium"
                 >See Certificate </a>
                 }

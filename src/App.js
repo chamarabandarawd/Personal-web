@@ -5,7 +5,6 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Project from "./components/projects/Project";
 import Resume from "./components/resume/Resume";
-import Testimonial from "./components/testimonial/Testimonial";
 import FooterBottom from './components/footer/FooterBottom'
 
 
@@ -18,7 +17,6 @@ function App() {
         <Features />
         <Project />
         <Resume />
-        {/* <Testimonial/> */}
         <Contact/>
         <Footer/>
         <FooterBottom/>

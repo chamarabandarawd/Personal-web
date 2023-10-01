@@ -1,7 +1,7 @@
 import React from 'react'
 import { SiTailwindcss, SiFigma,} from "react-icons/si"
 import { MdMarkEmailUnread } from "react-icons/md"
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact,FaWhatsappSquare } from 'react-icons/fa'
+import { FaLinkedinIn, FaReact,FaWhatsappSquare } from 'react-icons/fa'
 import { SiSpringboot} from 'react-icons/si'
 
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
@@ -22,7 +22,6 @@ const LeftBanner = () => {
         words: ["Professional Coder with Java.", "Full Stack Developer.", "UI Desihner."],
         loop: true,
         typeSpeed: 30,
-        delaySpeed: 10,
         delaySpeed: 2000,
     });
     return (
