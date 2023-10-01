@@ -24,7 +24,7 @@ export const projectsData=[
       "It replicates the user interface and functionality of the popular streaming platform Netflix."+
       "App is its connection to an existing movie API server - ",
       img:projectImgs[2],
-      gitLink:"https://github.com/chamarabandarawd/Netflix-new.git",
+      gitLink:"https://github.com/chamarabandarawd/netflix.github.io.git",
       deployLink:"https://tiny-daifuku-dc73e8.netlify.app/"
     },
     {
