@@ -44,7 +44,7 @@ export const seExperinceData = [
     { 
         id:1,
         title: "Trainee Software Engineer",
-        subtitle: "Collaborating with Freelance SE",
+        subtitle: "Collaborating with Freelance SE - (Dec 2022 - April 2023)",
         result: "Sri Lanaka",
         des: "As a Trainee Software Engineer, my role primarily involved working on front-end development using React and back-end development using Node.js and Nest.js."
     }
