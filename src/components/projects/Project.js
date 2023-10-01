@@ -12,8 +12,8 @@ const Project = () => {
       des='My Projects'/>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-14'>
-            {projectsData.map(({id,title,des,img})=>(
-                <ProjectCard key={id} title={title} des={des} img={img}/>
+            {projectsData.map(({id,title,des,img,gitLink,deployLink })=>(
+                <ProjectCard key={id} title={title} des={des} img={img} gitLink={gitLink} deployLink={deployLink}/>
             ))}
             
 

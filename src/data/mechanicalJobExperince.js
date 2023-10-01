@@ -43,11 +43,10 @@ export const mechanicalJobExperince = [
 export const seExperinceData = [
     { 
         id:1,
-        title: "In Plant Trainee Engineer",
-        subtitle: "MAS KREEDA LEISURELINE . ( May 2017 - Dec 2017)",
+        title: "Trainee Software Engineer",
+        subtitle: "Collaborating with Freelance SE",
         result: "Sri Lanaka",
-        des: "As an In-Plant Trainee Engineer at MAS KREEDA LEISURELINE, "
-            + "I maintained crucial systems like boilers and compressors. "
+        des: "As a Trainee Software Engineer, my role primarily involved working on front-end development using React and back-end development using Node.js and Nest.js."
     }
 ]
 
