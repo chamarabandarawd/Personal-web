@@ -46,7 +46,9 @@ export const featuresData = [
     x:72,
     icon: <SiAntdesign />,
     title: "UX Design with Figma",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "I am a UI/UX designer proficient in Figma. "+
+    "With a keen eye for user experience and a flair for creative design,"+
+    " I specialize in crafting intuitive and visually appealing digital interfaces that engage and delight users.",
   },
   {
     id: 6,

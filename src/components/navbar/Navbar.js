@@ -53,9 +53,10 @@ const[showMenu,setShowMenu]=useState(false);
               <div className='flex flex-col gap-4'>
                 <img className="w-28" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                I'm a passionate software engineer with a BSc
+                 in Engineering from the University of Moratuwa. 
+                 I specialize in web development, utilizing technologies like React,
+                  Angular, Node.js, Spring Boot, and Nest.js. 
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

@@ -22,11 +22,14 @@ const ContactLeft = () => {
     <div className='flex flex-col gap-4'>
       <h3 className='text-3xl font-bold text-white'>Chamara Bandara</h3>
       <p className='text-lg font-normal text-gray-400'>Full Stack Developer</p>
-      <p className='text-base text-gray-400 tracking-wide'>
-        We found a way for you to contribute to the project! Looks 
-        like react-lorem-ipsum-component is missing a Code of Conduct.
-        How about a good first contribution to this project? 
-        It seems that react-lorem-ipsum-component is missing a LICENSE file.</p>
+      <p className='text-base text-gray-400 tracking-wide text-justify'>
+      I am a passionate software engineer, wielding a versatile arsenal of technologies. 
+        Armed with a BSc Engineering degree from the  University of Moratuwa, I thrive in the 
+        dynamic world of web development. My craft encompasses React, Angular, Node js, Spring Boot, 
+        and Nest.js. I possess a unique blend of technical prowess and design finesse,
+         ensuring that the web applications I create are both cutting-edge and visually 
+         stunning. Together, let's embark on an exhilarating journey through the ever-evolving 
+         digital landscape, where innovation knows no bounds.</p>
         <p className='text-base text-gray-400 flex items-center gap-2'>
           Phone: <span className='text-lightText'> +94 76 696 0861</span>
         </p>
