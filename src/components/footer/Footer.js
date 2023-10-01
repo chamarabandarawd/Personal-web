@@ -1,8 +1,20 @@
 import React from 'react'
 import { logo } from '../../assets'
-import { FaFacebookF, FaTwitter, FaLinkedinIn} from 'react-icons/fa'
+import { FaWhatsappSquare, FaLinkedinIn} from 'react-icons/fa'
+import { MdMarkEmailUnread } from "react-icons/md"
 
 const Footer = () => {
+
+  const openLinkdinPage = () => {
+    window.open('https://www.linkedin.com/in/chamara-bandara-096681141/', '_blank'); // Replace 'https://www.example.com' with the URL you want to open
+  };
+
+  const handleWhatsAppClick = () => {
+    const phoneNumber = '94766960861';
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   return (
     <div className='w-full h-auto py-20 border-b-[1px] border-b-black px-5 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8'>
 
@@ -12,16 +24,16 @@ const Footer = () => {
             <h3 className='text-2xl font-bold text-white'>Chamara Bandara</h3>
             </div>
             <div className="flex gap-4">
-              <span className="bannerIcon">
-                  <FaFacebookF />
-              </span>
-              <span className="bannerIcon">
-                  <FaTwitter />
-              </span>
-              <span className="bannerIcon">
-                  <FaLinkedinIn />
-              </span>
-          </div>
+                        <span onClick={openLinkdinPage} className="bannerIcon">
+                            <FaLinkedinIn  />
+                        </span>
+                        <span className="bannerIcon">
+                            <MdMarkEmailUnread />
+                        </span>
+                        <span  onClick={handleWhatsAppClick} className="bannerIcon">
+                            <FaWhatsappSquare />
+                        </span>
+                    </div>
         </div>
         <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">

@@ -6,7 +6,7 @@ const Card = ({ title, des, icon,x }) => {
     return (
         <div className='w-full h-80 px-12 py-2 rounded-lg shadow-shadowOne flex
     item-center bg-gradient-to-r from-bodyColor to-[#202327] group 
-    hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 hover:h-full transition-all'>
+    hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors  hover:h-full duration-300 transition-all'>
        <div className={`h-75 overflow-y-hidden `}>
             <div className='flex h-full flex-col gap-8 translate-y-10 group-hover:translate-y-0 transition-transform duration-500'>
                 <div>
