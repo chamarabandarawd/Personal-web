@@ -7,19 +7,19 @@ import {BiSolidServer  } from "react-icons/bi";
 // Features Data
 export const featuresData = [
   {
-    id: 2,
-    x:80,
-    icon:<FaGlobe />,
-    title: "Client-Side Web Development",
-    des: "Harnessing the power of React, Angular, Bootstrap, and Tailwind CSS, I specialize in building captivating front-end interfaces. With a keen eye for design and a passion for user experience, I bring ideas to life, making the digital realm both visually stunning and highly functional. Let's create web experiences that leave a lasting impression.",
-},
-  {
     id: 1,
     x:80,
     title: "Server-Side Web Development",
     icon: <BiSolidServer />,
     des: "I specialize in server-side development using Node.js, Spring Boot, and Nest.js. With these robust technologies, I create scalable and high-performance server applications that drive web and mobile experiences. Let's build the server backbone of your next project together.",
   },
+  {
+    id: 2,
+    x:80,
+    icon:<FaGlobe />,
+    title: "Client-Side Web Development",
+    des: "Harnessing the power of React, Angular, Bootstrap, and Tailwind CSS, I specialize in building captivating front-end interfaces. With a keen eye for design and a passion for user experience, I bring ideas to life, making the digital realm both visually stunning and highly functional. Let's create web experiences that leave a lasting impression.",
+},
   {
     id: 8,
     x:72,

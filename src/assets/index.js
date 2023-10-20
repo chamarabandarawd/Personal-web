@@ -18,6 +18,7 @@ import fullStack from './certificateImg/fullStack.png'
 import oop from './certificateImg/oop.png'
 import webMora from './certificateImg/webMora.png'
 import serverSide from './certificateImg/ServerSidedevelopment.png'
+import travelFlex from "./projectImg/travelFlex.png"
 
 const projectImgs=[
     project1,
@@ -28,6 +29,7 @@ const projectImgs=[
     project6,
     IBurgerShop,
     SMSJava,
+    travelFlex
 ]
 export {
     person,

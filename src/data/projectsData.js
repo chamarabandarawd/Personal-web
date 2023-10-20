@@ -3,6 +3,14 @@ import { projectImgs } from "../assets";
 export const projectsData=[
     {
       id:1001,
+      title:"TravelFlex - On going project",
+      des:"TravelFlex is a web-based travel management system that combines a React-based client-side for an intuitive user experience with a secure Spring Boot server-side using Spring Security with JWT authentication.",
+      img:projectImgs[8],
+      gitLink:"https://github.com/chamarabandarawd/Car-Manager-System--client-side.git",
+      deployLink:"https://mellifluous-licorice-4c21ab.netlify.app/"
+    },
+    {
+      id:10010,
       title:"ParaShift- MERN APP",
       des:"'ParaShift' is a web application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack, designed to assist users in generating summaries based on their provided input .Sever-Side Link :https://github.com/chamarabandarawd/ParaSift-Back-End.git ",
       img:projectImgs[0],
